@@ -1,7 +1,7 @@
 const i18n = {
   en: {
     langToggle: "العربية",
-    title: "Credit application for Axiom Telecom Saudi Co.",
+    title: "Credit application for شركة الضمان الرقمي للتجارة",
     reqTitle: "Requirements to submit your credit application",
     reqs: [
       "Be a KSA registered company",
@@ -24,7 +24,7 @@ const i18n = {
     next: "Next",
     back: "Back",
     submit: "Submit",
-    footer: "© 2026 tradeling.com. All rights reserved.",
+    footer: "© 2026 Abobakrh.com All rights reserved.",
     jobs: [
       "Owner",
       "Partner",
@@ -138,7 +138,7 @@ const i18n = {
   },
   ar: {
     langToggle: "English",
-    title: "طلب ائتمان لـ Axiom Telecom Saudi Co.",
+    title: "طلب ائتمان لـ شركة الضمان الرقمي للتجارة",
     reqTitle: "متطلبات تقديم واستكمال طلب الائتمان الخاص بك:",
     reqs: [
       "أن تكون شركة مسجلة في المملكة العربية السعودية",
@@ -161,7 +161,7 @@ const i18n = {
     next: "التالي",
     back: "رجوع",
     submit: "إرسال",
-    footer: "© 2026 tradeling.com. جميع الحقوق محفوظة.",
+    footer: "© 2026 Abobakrh.com جميع الحقوق محفوظة.",
     jobs: [
       "المالك",
       "الشريك",
@@ -276,7 +276,7 @@ const i18n = {
 };
 
 const countries = [
-  { dial: "966", flag: "sa.svg", ar: "السعودية", en: "Saudi Arabia" },
+  { dial: "966", flag: "sa", ar: "السعودية", en: "Saudi Arabia" },
   { dial: "971", flag: "🇦🇪", ar: "الإمارات", en: "United Arab Emirates" },
   { dial: "965", flag: "🇰🇼", ar: "الكويت", en: "Kuwait" },
   { dial: "973", flag: "🇧🇭", ar: "البحرين", en: "Bahrain" },
