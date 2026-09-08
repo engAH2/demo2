@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Axiom Telecom Saudi Co. | طلب ائتمان | مجموعة تريدلنغ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div></div>
+      <div class="header-logo-wrap">
+        <img class="header-logo" src="Logo.svg" alt="Tradeling Group Credit application" width="120" height="50" />
+      </div>
+      <button class="lang-btn" id="langBtn" type="button">English</button>
+    </div>
+
+    <main class="page">
+      <div class="title-row">
+        <h1 class="page-title" id="pageTitle">طلب ائتمان لـ Axiom Telecom Saudi Co.</h1>
+      </div>
+
+      <section class="req-box" id="reqBox">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            fill="currentColor"
+            d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1m0 6a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2zm1 5a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0z"
+            clip-rule="evenodd"
+            fill-rule="evenodd"
+          ></path>
+        </svg>
+        <div class="req-body">
+          <p class="req-title" id="reqTitleText">متطلبات تقديم واستكمال طلب الائتمان الخاص بك:</p>
+          <ul id="reqList"></ul>
+        </div>
+      </section>
+
+      <nav class="stepper" id="stepper" aria-label="steps"></nav>
+      <div id="formRoot"></div>
+    </main>
+
+    <footer class="site-footer">
+      <div id="footerText">© 2026 tradeling.com. جميع الحقوق محفوظة.</div>
+    </footer>
+
+    <div class="modal" id="otpModal" aria-hidden="true">
+      <div class="modal-card">
+        <h3 id="otpTitle">تحقق</h3>
+        <p id="otpHint"></p>
+        <div class="otp">
+          <input maxlength="1" inputmode="numeric" />
+          <input maxlength="1" inputmode="numeric" />
+          <input maxlength="1" inputmode="numeric" />
+          <input maxlength="1" inputmode="numeric" />
+        </div>
+        <div class="actions">
+          <button class="btn btn-primary" id="otpConfirm" type="button">تأكيد</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
